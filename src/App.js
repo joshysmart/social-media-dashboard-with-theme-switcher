@@ -1,26 +1,34 @@
 import React from 'react';
-import logo from './logo.svg';
+import AppContainer from './components/AppContainer.js';
+
 import './App.css';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+class App extends React.Component {
+  constructor() {
+    super();
+    this.state = {
+      checked: false
+    }
+    this.handleChange = this.handleChange.bind(this);
+  }
+
+  handleChange(e) {
+    const {name} = e.target;
+    this.setState({
+      [name]: !this.state.checked
+    })
+  }
+
+  render () {
+    return (
+      <div className="wrapper">
+        <AppContainer 
+        handleChange={this.handleChange}
+        state={this.state}
+        />
+      </div>
+    )
+  }
 }
 
 export default App;

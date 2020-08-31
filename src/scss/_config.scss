@@ -1,0 +1,42 @@
+// Primary colors
+$Lime-Green: #1db489;
+$Bright-Red: #dc414c;
+$Facebook: #198ff5;
+$Twitter: #1ca0f2;
+$Instagram: linear-gradient(to right,#fdc468 to #df4996);
+$YouTube: #c4032a;
+
+// Dark theme
+$Toggle-Dark: linear-gradient(to right, hsl(210, 78%, 56%) , hsl(146, 68%, 55%));
+$Very-Dark-Blue-BG: #1e202a;
+$Very-Dark-Blue-Top-BG-Pattern: #1f212e;
+$Dark-Desaturated-Blue-Card-BG: #252a41;
+$Desaturated-Blue-Text: hsl(228, 34%, 66%);
+$White-Text: hsl(0, 0%, 100%);
+
+//LIght theme
+$Toggle-LIght: hsl(230, 22%, 74%);
+$White-BG: #ffffff;
+$Very-Pale-Blue-Top-BG-Pattern: #f5f7ff;
+$Light-Grayish-Blue-Card-BG: #f0f2fa;
+$Dark-Grayish-Blue-Text: hsl(228, 12%, 44%);
+$Very-Dark-Blue-Text: hsl(230, 17%, 14%);
+
+// responsive 
+@mixin media-md {
+ @media only screen and (min-width: 768px) {
+  @content;
+ }
+}
+
+@mixin media-lg {
+ @media only screen and (min-width: 1024px) {
+  @content;
+ }
+}
+
+@mixin media-xl {
+ @media only screen and (min-width: 1440px) {
+  @content;
+ }
+}
