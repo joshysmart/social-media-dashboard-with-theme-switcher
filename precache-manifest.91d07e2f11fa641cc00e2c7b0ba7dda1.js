@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "3dd153d74339dcb8cde62ee39f5b8815",
+    "revision": "866c2ffc3f4dca4fbc22f6d820d8cb65",
     "url": "/social-media-dashboard-with-theme-switcher/index.html"
   },
   {
-    "revision": "2e889e88a91f5747d3b1",
-    "url": "/social-media-dashboard-with-theme-switcher/static/css/main.31f80656.chunk.css"
+    "revision": "da1983f4edfac6e91964",
+    "url": "/social-media-dashboard-with-theme-switcher/static/css/main.634b65ff.chunk.css"
   },
   {
     "revision": "a53c40ed6787a7b14a85",
@@ -16,11 +16,15 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/social-media-dashboard-with-theme-switcher/static/js/2.0467fe2b.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "2e889e88a91f5747d3b1",
-    "url": "/social-media-dashboard-with-theme-switcher/static/js/main.ec5a8254.chunk.js"
+    "revision": "da1983f4edfac6e91964",
+    "url": "/social-media-dashboard-with-theme-switcher/static/js/main.b5562fdc.chunk.js"
   },
   {
     "revision": "75c0202dfc535eeb430d",
     "url": "/social-media-dashboard-with-theme-switcher/static/js/runtime-main.9cda8c86.js"
+  },
+  {
+    "revision": "64373004d068a7ecd584294561fee297",
+    "url": "/social-media-dashboard-with-theme-switcher/static/media/cursor.64373004.svg"
   }
 ]);

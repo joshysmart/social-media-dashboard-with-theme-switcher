@@ -1,22 +1,23 @@
 {
   "files": {
-    "main.css": "/social-media-dashboard-with-theme-switcher/static/css/main.31f80656.chunk.css",
-    "main.js": "/social-media-dashboard-with-theme-switcher/static/js/main.ec5a8254.chunk.js",
-    "main.js.map": "/social-media-dashboard-with-theme-switcher/static/js/main.ec5a8254.chunk.js.map",
+    "main.css": "/social-media-dashboard-with-theme-switcher/static/css/main.634b65ff.chunk.css",
+    "main.js": "/social-media-dashboard-with-theme-switcher/static/js/main.b5562fdc.chunk.js",
+    "main.js.map": "/social-media-dashboard-with-theme-switcher/static/js/main.b5562fdc.chunk.js.map",
     "runtime-main.js": "/social-media-dashboard-with-theme-switcher/static/js/runtime-main.9cda8c86.js",
     "runtime-main.js.map": "/social-media-dashboard-with-theme-switcher/static/js/runtime-main.9cda8c86.js.map",
     "static/js/2.0467fe2b.chunk.js": "/social-media-dashboard-with-theme-switcher/static/js/2.0467fe2b.chunk.js",
     "static/js/2.0467fe2b.chunk.js.map": "/social-media-dashboard-with-theme-switcher/static/js/2.0467fe2b.chunk.js.map",
     "index.html": "/social-media-dashboard-with-theme-switcher/index.html",
-    "precache-manifest.9686c780f51f611d8bb7fc09770e0c22.js": "/social-media-dashboard-with-theme-switcher/precache-manifest.9686c780f51f611d8bb7fc09770e0c22.js",
+    "precache-manifest.91d07e2f11fa641cc00e2c7b0ba7dda1.js": "/social-media-dashboard-with-theme-switcher/precache-manifest.91d07e2f11fa641cc00e2c7b0ba7dda1.js",
     "service-worker.js": "/social-media-dashboard-with-theme-switcher/service-worker.js",
-    "static/css/main.31f80656.chunk.css.map": "/social-media-dashboard-with-theme-switcher/static/css/main.31f80656.chunk.css.map",
-    "static/js/2.0467fe2b.chunk.js.LICENSE.txt": "/social-media-dashboard-with-theme-switcher/static/js/2.0467fe2b.chunk.js.LICENSE.txt"
+    "static/css/main.634b65ff.chunk.css.map": "/social-media-dashboard-with-theme-switcher/static/css/main.634b65ff.chunk.css.map",
+    "static/js/2.0467fe2b.chunk.js.LICENSE.txt": "/social-media-dashboard-with-theme-switcher/static/js/2.0467fe2b.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/social-media-dashboard-with-theme-switcher/static/media/cursor.64373004.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.9cda8c86.js",
     "static/js/2.0467fe2b.chunk.js",
-    "static/css/main.31f80656.chunk.css",
-    "static/js/main.ec5a8254.chunk.js"
+    "static/css/main.634b65ff.chunk.css",
+    "static/js/main.b5562fdc.chunk.js"
   ]
 }
