@@ -1,5 +1,4 @@
-# Frontend Mentor - Social media dashboard with theme switcher and my first react app
-
+# Frontend Mentor | My  first react app - Social media dashboard with theme switcher
 ![Design preview for the Social media dashboard with theme switcher coding challenge](./design/desktop-preview.jpg)
 
 ## Welcome! 👋
