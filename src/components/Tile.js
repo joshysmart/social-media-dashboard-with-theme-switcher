@@ -3,7 +3,7 @@ import React from 'react';
 function Tile(props) {
  const style = {
   bg: {
-   background: props.state.checked ? '#252a41' : '#f0f2fa'
+   background: props.state.checked ? '#f0f2fa' : '#252a41'
   },
 
   before: {
@@ -11,16 +11,16 @@ function Tile(props) {
   },
 
   head: {
-   color: props.state.checked ? '#fff' : ''
+   color: props.state.checked ? '' : '#fff'
   },
 
   p: {
-   color: props.state.checked ? '#8e91ba' : ''
+   color: props.state.checked ? '' : '#8e91ba'
 
   },
 
   color: {
-   color: props.arrow.up ? props.site === 'facebook' ? props.state.checked ? '' : '#1db489' : '#1db489' : '#dc414c' 
+   color: props.arrow.up ? props.site === 'facebook' ? props.state.checked ? '#1db489' : '' : '#dc414c' : '#1db489'
   },
  }
 

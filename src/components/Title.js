@@ -3,23 +3,23 @@ import React from 'react';
 function Title(props) {
   const style = {
    bg: {
-     background: props.state.checked ? '#1f212e' : '#f5f7ff'
+     background: props.state.checked ? '#f5f7ff' : '#1f212e'
    },
    head: {
-    color: props.state.checked ? '#fff' : ''
+    color: props.state.checked ? '' : '#fff'
    },
 
    p: {
-    color: props.state.checked ? '#8e91ba' : '',
-    borderBottomColor: props.state.checked ? '#373a4d' : ''
+    color: props.state.checked ? '' : '#8e91ba',
+    borderBottomColor: props.state.checked ? '' : '#373a4d'
    },
 
    toggle : {
-    backgroundImage: props.state.checked ? 'linear-gradient(to right, #378fe6 , #3eda82)' : ''
+    backgroundImage: props.state.checked ? '' : 'linear-gradient(to right, #378fe6 , #3eda82)'
    },
 
    indicator: {
-    background: props.state.checked ? '#1f212e' : ''
+    background: props.state.checked ? '' : '#1f212e'
    }
   }
 

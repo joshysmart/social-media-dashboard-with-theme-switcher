@@ -4,7 +4,7 @@ import OverviewToday from './OverviewToday.js';
 
 function AppContainer(props) {
  const style = {
-  background: props.state.checked ? '#1e202a' : '#ffffff'
+  background: props.state.checked ? '' : '#1e202a'
  }
 
  return (

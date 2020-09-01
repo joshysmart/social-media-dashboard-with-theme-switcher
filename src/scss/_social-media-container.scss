@@ -58,14 +58,14 @@
      .indicator {
       width: 18px;
       height: 18px;
-      transform: translate3d(25px, 0, 0);
+      transform: translate3d(3px, 0, 0);
       border-radius: 50%;
       background: $White-BG; 
       transition: all 0.2s cubic-bezier(.97,.06,0,.87)
      }
  
      .toggle-state:checked ~ .indicator {
-       transform: translate3d(3px, 0, 0);
+       transform: translate3d(25px, 0, 0);
      }
     }
    }

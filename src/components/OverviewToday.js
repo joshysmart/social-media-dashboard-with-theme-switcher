@@ -3,7 +3,7 @@ import OverviewTile from './OverviewTile.js';
 
 function OverviewToday(props) {
  const style = {
-  color: props.state.checked ? '#fff' : ''
+  color: props.state.checked ? '' : '#fff'
  }
 
  return (

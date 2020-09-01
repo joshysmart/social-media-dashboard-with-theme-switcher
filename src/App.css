@@ -59,14 +59,14 @@
 .social-media-container .title-container .toggle-container label .toggle .indicator {
   width: 18px;
   height: 18px;
-  transform: translate3d(25px, 0, 0);
+  transform: translate3d(3px, 0, 0);
   border-radius: 50%;
   background: #ffffff;
   transition: all 0.2s cubic-bezier(0.97, 0.06, 0, 0.87);
 }
 
 .social-media-container .title-container .toggle-container label .toggle .toggle-state:checked ~ .indicator {
-  transform: translate3d(3px, 0, 0);
+  transform: translate3d(25px, 0, 0);
 }
 
 .social-media-container .tile-container {
