@@ -1,7 +1,7 @@
 import React from 'react';
 import AppContainer from './components/AppContainer.js';
-
 import './App.css';
+import './cursor.svg'
 
 class App extends React.Component {
   constructor() {

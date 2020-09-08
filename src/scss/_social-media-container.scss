@@ -11,7 +11,7 @@
   .title {
    h2 {
     margin: 0;
-    font-size: 1.5rem;
+    font-size: 1.7rem;
     transition: all .2s ease-in-out;
    }
 
@@ -32,25 +32,29 @@
     justify-content: space-between;
     padding: .2rem 0;
     padding-top: .7rem;
-    color: #696d79;
+    color: #8b97c6;
     font-weight: 700;
     font-size: .86rem;
-    cursor: pointer;
+    cursor: url('./cursor.svg'), auto;
     transition: all .2s ease-in-out;
-  
+ 
     .toggle {
-     isolation: isolate;
-     position: relative;
-     width: 47px;
-     height: 18px;
-     padding: 3px 0;
-     border-radius: 2rem;
-     overflow: hidden;
-     background: $Toggle-LIght;
-     display: flex;
-     align-items: center;
-     transition: all .2s ease-in-out;
+      isolation: isolate;
+      position: relative;
+      width: 47px;
+      height: 18px;
+      padding: 3px 0;
+      border-radius: 2rem;
+      overflow: hidden;
+      background: $Toggle-LIght;
+      display: flex;
+      align-items: center;
+      transition: all .2s ease-in-out;
 
+      &:hover {
+        background: linear-gradient(to right, #378fe6 , #3eda82);
+      }
+  
      .toggle-state {
       display: none;
      }
@@ -67,6 +71,11 @@
      .toggle-state:checked ~ .indicator {
        transform: translate3d(25px, 0, 0);
      }
+    }
+   }
+   .dark-toggle {
+    &:hover {
+      color: #fff;
     }
    }
   }
@@ -89,9 +98,26 @@
    padding: .5rem 0;
    background: $Light-Grayish-Blue-Card-BG;
    border-radius: .7rem;
-   transition: all .2s ease-in-out;
    position: relative;
-   z-index: 1;
+   transition: all .2s ease-in-out;
+   cursor: url('./cursor.svg'), auto;
+
+   &:before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    right: 0;
+    transition: all .2s ease-in-out;
+   }
+
+   &:hover {
+    &:before {
+      background: rgba(245, 247, 255, 0.05);
+    }
+   }
+
 
    .before {
     width: 100%;
@@ -101,7 +127,6 @@
     top: 0;
     background-image: linear-gradient(to right, #fdc468, #df4996);
     border-radius: .7rem .7rem 0 0;
-    z-index: -1;
    }
  
    .username {
@@ -151,6 +176,14 @@
    .facebook {
     color: #fff;
    }
+  }
+
+  .tile-dark {
+    &:hover {
+      &:before {
+        background: rgba(37, 42, 65, 0.05);
+      }
+    }  
   }
  }
 }

@@ -12,16 +12,16 @@ function OverviewTile(props) {
   },
  
   p: {
-   color: props.state.checked ?  '' : '#8e91ba'
+   color: props.state.checked ?  '#63687e' : '#8e91ba'
   }, 
   
   color: {
-   color: props.arrow.up ? '#dc414c' : '#1db489'
+   color: props.arrow.up ? '#1db489' : '#dc414c'
   },
  }
 
  return (
-  <div className="overview-tile" style={style.bg}>
+  <div className={`overview-tile ${props.state.checked ? 'overview-tile-dark' : ''}`} style={style.bg}>
    <p style={style.p} className="type">{props.type} <img src={props.icon} alt="" /></p>
    <div className="count">
     <h3 style={style.head}>{props.count}</h3>

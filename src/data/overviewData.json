@@ -1,0 +1,58 @@
+[
+ {
+  "type": "Page Views",
+  "icon": "./img/icon-facebook.svg",
+  "count": "87",
+  "arrow": {"icon": "./img/icon-up.svg", "up": true},
+  "percent": "3%"
+ },
+ {
+  "type": "Likes",
+  "icon": "./img/icon-facebook.svg",
+  "count": "52",
+  "arrow": {"icon": "./img/icon-down.svg", "up": false},
+  "percent": "3%"
+ },
+ {
+  "type": "Likes",
+  "icon": "./img/icon-instagram.svg",
+  "count": "5462",
+  "arrow": {"icon": "./img/icon-up.svg", "up": true},
+  "percent": "2257%"
+ },
+ {
+  "type": "Profile Views",
+  "icon": "./img/icon-instagram.svg",
+  "count": "52k",
+  "arrow": {"icon": "./img/icon-up.svg", "up": true},
+  "percent": "1375%"
+ },
+ {
+  "type": "Retweets",
+  "icon": "./img/icon-twitter.svg",
+  "count": "117",
+  "arrow": {"icon": "./img/icon-up.svg", "up": true},
+  "percent": "303%"
+ },
+ {
+  "type": "Likes",
+  "icon": "./img/icon-twitter.svg",
+  "count": "507",
+  "arrow": {"icon": "./img/icon-up.svg", "up": true},
+  "percent": "553%"
+ },
+ {
+  "type": "Likes",
+  "icon": "./img/icon-youtube.svg",
+  "count": "107",
+  "arrow": {"icon": "./img/icon-down.svg", "up": false},
+  "percent": "19%"
+ },
+ {
+  "type": "Total Views",
+  "icon": "./img/icon-youtube.svg",
+  "count": "1407",
+  "arrow": {"icon": "./img/icon-down.svg", "up": false},
+  "percent": "12%"
+ }
+]

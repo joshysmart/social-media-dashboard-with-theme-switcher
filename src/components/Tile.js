@@ -15,17 +15,17 @@ function Tile(props) {
   },
 
   p: {
-   color: props.state.checked ? '' : '#8e91ba'
+   color: props.state.checked ? '#63687e' : '#8b97c6' 
 
   },
 
   color: {
-   color: props.arrow.up ? props.site === 'facebook' ? props.state.checked ? '#1db489' : '' : '#dc414c' : '#1db489'
+   color: props.arrow.up ? props.site === 'facebook' ? props.state.checked ? '#1db489' : '' : '#1db489' : '#dc414c'
   },
  }
 
  return (
-  <div className="tile" style={style.bg}>
+  <div className={`tile ${props.state.checked ? 'tile-dark' : ''}`} style={style.bg}>
    <div className="before" style={style.before}></div>
    <p className="username" style={style.p}><img src={props.icon} alt="" /> {props.username}</p>
    <h2 style={style.head}>{props.followers}</h2>
